@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import clamp from 'lodash/clamp';
+import { clamp } from 'lodash';
 import { StateCreator } from 'zustand';
 import { useLimeplayStore, useLimeplayStoreAPI } from '../store';
 
